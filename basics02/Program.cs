@@ -29,6 +29,12 @@ namespace basics02
             #endregion
 
 
+            #region Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library". Print the result.
+            sb.Replace("Book List", "Library");
+            Console.WriteLine($"After Replace: {sb}");
+            #endregion
+
+
         }
     }
 }
