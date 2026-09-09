@@ -166,6 +166,19 @@ namespace basics02
             #endregion
 
 
+            #region Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty,  use return to exit the method early instead of printing anything.
+            void PrintBook(string[] bookArray)
+            {
+                if (bookArray == null || bookArray.Length == 0)
+                {
+
+                    return;
+                }
+                Console.WriteLine(bookArray[0]);
+            }
+            #endregion
+
+
 
 
         }
