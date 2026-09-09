@@ -43,6 +43,12 @@ namespace basics02
             #endregion
 
 
+            #region Build the same sentence as above, but using string interpolation ($"..."). 
+            string res2 = $"Book: {title2}, Pages: {pages}";
+            Console.WriteLine(res2);
+            #endregion
+
+
 
         }
     }
