@@ -1,4 +1,6 @@
-﻿namespace basics02
+﻿using System.Text;
+
+namespace basics02
 {
     internal class Program
     {
@@ -16,6 +18,14 @@
             string string2 = "Clean Code";
             bool sameRef = object.ReferenceEquals(string1, string2);
             Console.WriteLine($"Are the strings the same reference? {sameRef}");
+            #endregion
+
+
+            #region Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same  object.Print the final result.
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Book List");
+            sb.Append(" - Updated");
+            Console.WriteLine($"Final result: {sb}");
             #endregion
 
 
