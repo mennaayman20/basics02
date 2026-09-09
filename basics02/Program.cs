@@ -49,6 +49,12 @@ namespace basics02
             #endregion
 
 
+            #region Build the same sentence again, but using string.Format().
+            string result3 = string.Format("Book: {0}, Pages: {1}", title, pages);
+            Console.WriteLine(result3);
+            #endregion
+
+
 
         }
     }
