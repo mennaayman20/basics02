@@ -113,6 +113,16 @@ namespace basics02
             #endregion
 
 
+            #region Using the same books array, use a while loop to print every book title.
+            int j = 0;
+            while (j < books.Length)
+            {
+                Console.WriteLine(books[j]);
+                j++;
+            }
+            #endregion
+
+
 
 
         }
